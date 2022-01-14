@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      // Declare deps here (keep them in sync with what
+      // you defined in the package.json)
+      // PS: path are relative to baseUrl
+      "@brcc-customer-portal/utils/*": [
+        "../utils/src/*"
+      ],
+      "@brcc-customer-portal/utils": [
+        "../utils/src/index"
+      ]
+    },
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "incremental": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "exclude": [
+    ".next"
+  ],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.json"
+  ]
+}

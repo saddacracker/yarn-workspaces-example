@@ -1,0 +1,10 @@
+{
+  "name": "brcc-customer-portal",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "husky": "7.0.2"
+  }
+}

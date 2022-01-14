@@ -1,0 +1,7 @@
+{
+    "name": "@brcc-customer-portal/utils",
+    "version": "1.0.0",
+    "description": "Shared components",
+    "private": true,
+    "main": "index.js"
+}
