@@ -6,10 +6,10 @@
       // you defined in the package.json)
       // PS: path are relative to baseUrl
       "@brcc-customer-portal/utils/*": [
-        "../utils/src/*"
+        "../../utils/src/*"
       ],
       "@brcc-customer-portal/utils": [
-        "../utils/src/index"
+        "../../utils/src/index"
       ]
     },
     "target": "es5",
