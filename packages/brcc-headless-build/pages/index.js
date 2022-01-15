@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { test } from '@brcc-customer-portal/utils';
+import { capitalize } from '@brcc-customer-portal/utils';
 
-console.log(`test`, test());
+console.log(`capitalize`, capitalize("test tickles"));
 
 export default function Home() {
   return (
