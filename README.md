@@ -1,1 +1,3 @@
-# brcc-workspaces
+# BRCC Workspaces
+
+`yarn set version latest`

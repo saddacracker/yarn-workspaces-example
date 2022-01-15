@@ -1,5 +1,5 @@
 export const test = function() {
-    return "This is utils"
+    return "Test Tickles"
 }
 
 export default test;
