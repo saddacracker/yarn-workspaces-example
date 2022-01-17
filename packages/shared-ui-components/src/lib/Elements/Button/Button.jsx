@@ -2,7 +2,7 @@ import React from 'react';
 
 const Button = () => {
   return (
-    <button>Im a Button Bro</button>
+    <button>Im a Button Brah</button>
   );
 }
 
