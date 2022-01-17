@@ -6,7 +6,6 @@ import { capitalize } from '@brcc-customer-portal/utils';
 import { Button, Box } from '@brcc-customer-portal/shared-ui-components';
 
 console.log(`capitalize`, capitalize("test tickles"));
-console.log(`Button`, Button("test tickles two"));
 
 export default function Home() {
   return (

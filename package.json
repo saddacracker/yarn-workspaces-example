@@ -5,6 +5,7 @@
     "packages/*"
   ],
   "devDependencies": {
+    "babel-plugin-styled-components": "latest",
     "husky": "7.0.2"
   }
 }

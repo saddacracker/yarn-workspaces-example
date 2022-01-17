@@ -1,9 +1,9 @@
 import React, { forwardRef } from 'react';
 import PropTypes from 'prop-types';
-// import classNames from 'classnames';
-// import injectSheet from 'react-jss';
-// import capitalize from '../../../../../utils/src/lib/capitalize';
-// import styles from './Box.styles';
+import classNames from 'classnames';
+import injectSheet from 'react-jss';
+import { capitalize } from '@brcc-customer-portal/utils';
+import styles from './Box.styles';
 
 const variantMapping = {
   div: 'div',
@@ -63,32 +63,32 @@ const Box = forwardRef((props, ref) => {
   const BoxComponent = variant ? variantMapping[variant] : 'div';
   return (
     <BoxComponent
-      // className={classNames({
-      //   [classes.root]: true,
-      //   [classes.boxDisplay]: display,
-      //   [classes[`boxBg${capitalize(bgcolor)}`]]: bgcolor,
-      //   [classes[`boxPosition${capitalize(position)}`]]: position,
-      //   [classes.boxPosition]: position,
-      //   [classes.boxFullWidth]: fullWidth,
-      //   [classes.boxGap]: gap,
-      //   [classes.boxFlexWrap]: flexWrap,
-      //   [classes.boxFlexGrow]: flexGrow,
-      //   [classes.boxFlexDirection]: flexDirection,
-      //   [classes.boxGridColumnLayout]: boxGridColumnLayout,
-      //   [classes.boxMaxWidth]: maxWidth,
-      //   [classes.boxPaddingTop]: paddingTop || pt,
-      //   [classes.boxPaddingBottom]: paddingBottom || pb,
-      //   [classes.boxPaddingLeft]: paddingLeft || pl,
-      //   [classes.boxPaddingRight]: paddingRight || pr,
-      //   [classes.boxMarginTop]: marginTop || mt,
-      //   [classes.boxMarginBottom]: marginBottom || mb,
-      //   [classes.boxMarginLeft]: marginLeft || ml,
-      //   [classes.boxMarginRight]: marginRight || mr,
-      //   [classes.contain]: contain,
-      //   [classes[`justifyContent${capitalize(justifyContent)}`]]: justifyContent,
-      //   [classes[`alignItems${capitalize(alignItems)}`]]: alignItems,
-      //   [className]: className,
-      // })}
+      className={classNames({
+        [classes.root]: true,
+        [classes.boxDisplay]: display,
+        [classes[`boxBg${capitalize(bgcolor)}`]]: bgcolor,
+        [classes[`boxPosition${capitalize(position)}`]]: position,
+        [classes.boxPosition]: position,
+        [classes.boxFullWidth]: fullWidth,
+        [classes.boxGap]: gap,
+        [classes.boxFlexWrap]: flexWrap,
+        [classes.boxFlexGrow]: flexGrow,
+        [classes.boxFlexDirection]: flexDirection,
+        [classes.boxGridColumnLayout]: boxGridColumnLayout,
+        [classes.boxMaxWidth]: maxWidth,
+        [classes.boxPaddingTop]: paddingTop || pt,
+        [classes.boxPaddingBottom]: paddingBottom || pb,
+        [classes.boxPaddingLeft]: paddingLeft || pl,
+        [classes.boxPaddingRight]: paddingRight || pr,
+        [classes.boxMarginTop]: marginTop || mt,
+        [classes.boxMarginBottom]: marginBottom || mb,
+        [classes.boxMarginLeft]: marginLeft || ml,
+        [classes.boxMarginRight]: marginRight || mr,
+        [classes.contain]: contain,
+        [classes[`justifyContent${capitalize(justifyContent)}`]]: justifyContent,
+        [classes[`alignItems${capitalize(alignItems)}`]]: alignItems,
+        [className]: className,
+      })}
       ref={ref}
       {...rest}
     >
@@ -242,5 +242,4 @@ Box.propTypes = {
   alignItems: PropTypes.string,
 };
 
-// export default injectSheet(styles)(Box);
-export default Box;
+export default injectSheet(styles)(Box);
