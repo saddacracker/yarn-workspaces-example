@@ -10,6 +10,12 @@
       ],
       "@brcc-customer-portal/utils": [
         "../../utils/src/index"
+      ],
+      "@brcc-customer-portal/shared-ui-components/*": [
+        "../../shared-ui-components/src/*"
+      ],
+      "@brcc-customer-portal/shared-ui-components": [
+        "../../shared-ui-components/src/index"
       ]
     },
     "target": "es5",

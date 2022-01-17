@@ -2,9 +2,11 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { test } from '@brcc-customer-portal/utils';
+import { capitalize } from '@brcc-customer-portal/utils';
+import { Button, Box } from '@brcc-customer-portal/shared-ui-components';
 
-console.log(`test`, test());
+console.log(`capitalize`, capitalize("test tickles"));
+console.log(`Button`, Button("test tickles two"));
 
 export default function Home() {
   return (
@@ -16,6 +18,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <Box variant="section">
+          <Button />
+        </Box>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
