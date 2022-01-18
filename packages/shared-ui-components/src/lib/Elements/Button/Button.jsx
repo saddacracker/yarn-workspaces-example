@@ -1,21 +1,20 @@
 import React from 'react';
-import injectSheet from 'react-jss';
-import classNames from 'classnames';
-import styles from './Button.styles';
-import { Box } from '@brcc-customer-portal/shared-ui-components';
+import { createUseStyles } from 'react-jss'
+
+const useStyles = createUseStyles({
+  container: {
+    marginTop: 100,
+    textAlign: 'center',
+  }
+})
 
 const Button = (props) => {
-  const { classes } = props;
+  const classes = useStyles()
   return (
-    <Box
-      variant="span"
-      className={classNames({
-        [classes.buttonTitle]: true
-      })}
-    >
-      <button>Im a Button Brah</button>
-    </Box>
+      <button className={classes.container}>
+        Im a Button Brah
+      </button>
   );
 }
 
-export default injectSheet(styles)(Button);
+export default Button;
