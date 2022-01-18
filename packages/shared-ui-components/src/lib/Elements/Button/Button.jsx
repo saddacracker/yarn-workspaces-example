@@ -1,5 +1,5 @@
-import React from 'react';
-import { createUseStyles } from 'react-jss'
+import { createUseStyles } from 'react-jss';
+import { capitalize } from '@brcc-customer-portal/utils';
 
 const useStyles = createUseStyles({
   container: {
@@ -8,12 +8,12 @@ const useStyles = createUseStyles({
   }
 })
 
-const Button = (props) => {
+const Button = () => {
   const classes = useStyles()
   return (
-      <button className={classes.container}>
-        Im a Button Brah
-      </button>
+    <button className={classes.container}>
+      { capitalize("button") }
+    </button>
   );
 }
 
