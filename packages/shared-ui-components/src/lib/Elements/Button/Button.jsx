@@ -1,8 +1,19 @@
-import React from 'react';
+import { createUseStyles } from 'react-jss';
+import { capitalize } from '@brcc-customer-portal/utils';
+
+const useStyles = createUseStyles({
+  container: {
+    marginTop: 100,
+    textAlign: 'center',
+  }
+})
 
 const Button = () => {
+  const classes = useStyles()
   return (
-    <button>Im a Button Brah</button>
+    <button className={classes.container}>
+      { capitalize("button") }
+    </button>
   );
 }
 
