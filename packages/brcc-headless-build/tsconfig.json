@@ -5,16 +5,16 @@
       // Declare deps here (keep them in sync with what
       // you defined in the package.json)
       // PS: path are relative to baseUrl
-      "@brcc-customer-portal/utils/*": [
+      "@saddacracker/utils/*": [
         "../../utils/src/*"
       ],
-      "@brcc-customer-portal/utils": [
+      "@saddacracker/utils": [
         "../../utils/src/index"
       ],
-      "@brcc-customer-portal/shared-ui-components/*": [
+      "@saddacracker/shared-ui-components/*": [
         "../../shared-ui-components/src/*"
       ],
-      "@brcc-customer-portal/shared-ui-components": [
+      "@saddacracker/shared-ui-components": [
         "../../shared-ui-components/src/index"
       ]
     },

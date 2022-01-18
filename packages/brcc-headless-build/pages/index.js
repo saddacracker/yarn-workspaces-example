@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-import { capitalize } from '@brcc-customer-portal/utils';
-import { Button, Box } from '@brcc-customer-portal/shared-ui-components';
+import { capitalize } from '@saddacracker/utils';
+import { Button, Box } from '@saddacracker/shared-ui-components';
 
 console.log(`capitalize`, capitalize("test tickles"));
 

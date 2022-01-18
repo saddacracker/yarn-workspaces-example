@@ -87,18 +87,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@brcc-customer-portal/shared-ui-components@workspace:*, @brcc-customer-portal/shared-ui-components@workspace:packages/shared-ui-components":
-  version: 0.0.0-use.local
-  resolution: "@brcc-customer-portal/shared-ui-components@workspace:packages/shared-ui-components"
-  languageName: unknown
-  linkType: soft
-
-"@brcc-customer-portal/utils@workspace:*, @brcc-customer-portal/utils@workspace:packages/utils":
-  version: 0.0.0-use.local
-  resolution: "@brcc-customer-portal/utils@workspace:packages/utils"
-  languageName: unknown
-  linkType: soft
-
 "@emotion/is-prop-valid@npm:^0.7.3":
   version: 0.7.3
   resolution: "@emotion/is-prop-valid@npm:0.7.3"
@@ -289,6 +277,18 @@ __metadata:
   checksum: 4602c23454c8bb03502da12398cb5c4c0bfb3b1772535b418ec94ab8c47824f70e6ff32206a35fe7086042d9516959edea439e2371147b1de7eee50ef03ace65
   languageName: node
   linkType: hard
+
+"@saddacracker/shared-ui-components@workspace:*, @saddacracker/shared-ui-components@workspace:packages/shared-ui-components":
+  version: 0.0.0-use.local
+  resolution: "@saddacracker/shared-ui-components@workspace:packages/shared-ui-components"
+  languageName: unknown
+  linkType: soft
+
+"@saddacracker/utils@workspace:*, @saddacracker/utils@workspace:packages/utils":
+  version: 0.0.0-use.local
+  resolution: "@saddacracker/utils@workspace:packages/utils"
+  languageName: unknown
+  linkType: soft
 
 "@types/classnames@npm:^2.3.1":
   version: 2.3.1
@@ -587,20 +587,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"brcc-customer-portal@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "brcc-customer-portal@workspace:."
-  dependencies:
-    husky: 7.0.2
-  languageName: unknown
-  linkType: soft
-
 "brcc-headless-build@workspace:packages/brcc-headless-build":
   version: 0.0.0-use.local
   resolution: "brcc-headless-build@workspace:packages/brcc-headless-build"
   dependencies:
-    "@brcc-customer-portal/shared-ui-components": "workspace:*"
-    "@brcc-customer-portal/utils": "workspace:*"
+    "@saddacracker/shared-ui-components": "workspace:*"
+    "@saddacracker/utils": "workspace:*"
     "@types/classnames": ^2.3.1
     "@types/node": ^17.0.8
     "@types/react": ^17.0.38
@@ -2486,6 +2478,14 @@ __metadata:
   checksum: cb4f97ad25a75ebc11a8ef4e33bb962f8af8516bb2001082ceabd8902e15b98f4b84b4f8a9b222e5d57fc3bd1379c483886ed4619367a7680dad65316993021d
   languageName: node
   linkType: hard
+
+"saddacracker@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "saddacracker@workspace:."
+  dependencies:
+    husky: 7.0.2
+  languageName: unknown
+  linkType: soft
 
 "safe-buffer@npm:~5.1.1":
   version: 5.1.2

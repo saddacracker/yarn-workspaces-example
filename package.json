@@ -1,5 +1,5 @@
 {
-  "name": "brcc-customer-portal",
+  "name": "saddacracker",
   "private": true,
   "workspaces": [
     "packages/*"

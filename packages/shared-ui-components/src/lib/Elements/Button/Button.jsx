@@ -1,5 +1,5 @@
 import { createUseStyles } from 'react-jss';
-import { capitalize } from '@brcc-customer-portal/utils';
+import { capitalize } from '@saddacracker/utils';
 
 const useStyles = createUseStyles({
   container: {
