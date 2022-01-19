@@ -7,19 +7,19 @@ Monorepo proof of concept using yarn workspaces with:
 5. Successfully builds with jss styled components
 
 ## Notable configurations to make this work
-- [] `/package.json` workspaces wildcard to reference evrything in the package directory
-- [] `/yarnrc.yml`
+[] `/package.json` workspaces wildcard to reference evrything in the package directory
+[] `/yarnrc.yml`
 
-- [] `packages/web-app/packages.json` look at the dependencies
-- [] `packages/web-app/next.config.js` turn on `externalDir` for hot module reloading stuff (experimental)
-- [] `packages/web-app/tsconfig.json` Nextjs tsconfig including pathing
-- [] `packages/web-app/.bablerc` config that worked for me with Nextjs ssr log errors
-- [] `packages/web-app/empty.ts` prevent the ts compiler from barking if you don't have any ts files
+[] `packages/web-app/packages.json` look at the dependencies
+[] `packages/web-app/next.config.js` turn on `externalDir` for hot module reloading stuff (experimental)
+[] `packages/web-app/tsconfig.json` Nextjs tsconfig including pathing
+[] `packages/web-app/.bablerc` config that worked for me with Nextjs ssr log errors
+[] `packages/web-app/empty.ts` prevent the ts compiler from barking if you don't have any ts files
 
-- [] `packages/utils/package.json`
+[] `packages/utils/package.json`
 
-- [] `packages/shared-ui-components/package.json`
-- [] `packages/shared-ui-components/index.js` I mention this, because when I tried to name this file `index.jsx` the compiler would bark at me. However, the files I reference are .jsx files. Makes sense since this isn't jsx, but figured I'd mention it nonetheless. 
+[] `packages/shared-ui-components/package.json`
+[] `packages/shared-ui-components/index.js` I mention this, because when I tried to name this file `index.jsx` the compiler would bark at me. However, the files I reference are .jsx files. Makes sense since this isn't jsx, but figured I'd mention it nonetheless. 
 
 
 ## Todo
