@@ -34,4 +34,6 @@ Monorepo proof of concept using yarn workspaces with:
 `yarn set version latest`
 
 ## Helpful info
-
+- [https://stackoverflow.com/a/69554480/573316](https://stackoverflow.com/a/69554480/573316)
+- [Ben Awad's Yarn Workspaces tutorial](https://www.youtube.com/watch?v=G8KXFWftCg0)
+- [Egghead tutorial](https://egghead.io/lessons/react-use-yarn-workspaces-to-share-code-with-cra-and-create-react-native-app-in-a-monorepo)
