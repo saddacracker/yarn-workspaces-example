@@ -31,7 +31,7 @@ Monorepo proof of concept using yarn workspaces with:
 
 ## Caveats
 **Best to use latest version of yarn**
-`yarn set version latest`
+run `yarn set version latest`
 
 ## Helpful info
 - [https://stackoverflow.com/a/69554480/573316](https://stackoverflow.com/a/69554480/573316)
